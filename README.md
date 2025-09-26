@@ -19,3 +19,10 @@ Redis: In-memory data structure store used as a cache to improve performance.
 node-fetch: A lightweight module to make HTTP requests.
 
 Redis Client for Node.js: To interact with Redis in the refactored version.
+
+This project benefited from the assistance of OpenAI's language model, which helped in refactoring the initial Callback Hell code to an improved version using async/await. The AI also provided guidance on integrating Redis for caching, helping to enhance the overall performance and efficiency of the application. It assisted in:
+
+Refactoring nested callbacks into a more readable and maintainable async/await structure.
+
+Suggesting the implementation of Redis caching for performance improvement.
+
